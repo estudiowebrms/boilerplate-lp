@@ -5,6 +5,12 @@
 @theme {
   --font-bebas: "Bebas Neue", sans-serif;
   --font-poppins: "Poppins", sans-serif;
+
+  --color-primary: #a855f7;
+  --color-primary-light: #8b5cf6;
+  --color-secondary: #faf9eb;
+
+  --color-background: #fafafa;
 }
 
 @layer base {
@@ -18,7 +24,7 @@
   body {
     font-size: 1rem;
     color: #606060;
-    background-color: #f0f1ee;
+    background-color: var(--color-background);
   }
 
   h1,
@@ -55,7 +61,7 @@
 .hero-section {
   height: 900px;
   width: 100%;
-  background-image: url("/public/bg-hero.webp");
+  background-image: url("/bg-hero.webp");
   background-size: cover;
   background-position: center;
   margin-left: auto;
@@ -109,5 +115,22 @@
   }
   h2 {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section-wrapper {
+    padding: 0 1rem;
+  }
+
+  .section-wrapper {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+  h2 {
+    font-size: 1.5rem;
   }
 }
