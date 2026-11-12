@@ -22,7 +22,7 @@ Você pode iniciar um novo projeto utilizando este repositório como base de dua
 Execute o comando abaixo substituindo `minha-nova-lp` pelo nome do seu projeto:
 
 ```sh
-pnpm create astro@latest minha-nova-lp -- --template inovasoapp/boilerplate-lp
+pnpm create astro@latest minha-nova-lp -- --template estudiowebrms/boilerplate-lp
 ```
 
 ### Opção 2: Clone Direto
